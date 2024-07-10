@@ -1,0 +1,16 @@
+package April.ex_13042024;
+
+public class Lab017 {
+    public static void main(String[] args) {
+        byte b = 10;
+        short s = 128;
+        int i = 128;
+        short i1 = 128;
+        i1 = 34;
+        i1 = 89;
+        i1 = 99;
+        System.out.println(i1);
+        // here constantly your changing the value of i1 of short.
+        // when you Run the program the latest value will be printed ie;99
+    }
+}
